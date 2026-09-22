@@ -3,10 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: mode === 'production' ? '/jashu/' : '/',
+  base: mode === 'production' ? '/sep/' : '/',
   server: {
     port: 5173,
     host: true
   }
 }));
-
